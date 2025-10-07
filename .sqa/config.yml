@@ -15,66 +15,66 @@ sqa_criteria:
     repos:
       github.com/gem/oq-engine git:
         commands:
-        - /usr/bin/env sh .sqa/script.slimy-burgundy-fowl.sh
-        container: qc.acc_crabby-cinnabar-tzu
+        - /usr/bin/env sh .sqa/script.fuzzy-gamboge-akita.sh
+        container: qc.acc_fuzzy-puce-mole
   QC.Doc:
     repos:
       github.com/gem/oq-engine find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.squeaky-tan-ant.sh
-        container: qc.doc_lovely-thistle-zorse
+        - /usr/bin/env sh .sqa/script.crappy-lemon-hedgehog.sh
+        container: qc.doc_homely-amethyst-moose
       github.com/gem/oq-engine git:
         commands:
-        - /usr/bin/env sh .sqa/script.blurry-chocolate-earwig.sh
-        container: qc.doc_flaky-alizarin-donkey
+        - /usr/bin/env sh .sqa/script.slaphappy-rust-chamois.sh
+        container: qc.doc_flaky-wheat-zonkey
       github.com/gem/oq-engine markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.skinny-cornflower-chin.sh
-        container: qc.doc_pretty-tan-sheepdog
+        - /usr/bin/env sh .sqa/script.slaphappy-heliotrope-wolverine.sh
+        container: qc.doc_jumpy-amber-bandicoot
       github.com/gem/oq-engine restructuredtext-lint:
         commands:
-        - /usr/bin/env sh .sqa/script.randy-flax-mongrel.sh
-        container: qc.doc_snippy-cream-wolfhound
+        - /usr/bin/env sh .sqa/script.trippy-saffron-blue.sh
+        container: qc.doc_gamy-cinnabar-fousek
   QC.Lic:
     repos:
       github.com/gem/oq-engine licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.squirrely-blue-seal.sh
-        container: qc.lic_grumpy-burgundy-hare
+        - /usr/bin/env sh .sqa/script.fuzzy-jade-capuchin.sh
+        container: qc.lic_pretty-amaranth-vole
   QC.Sec:
     repos:
       github.com/gem/oq-engine bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.pokey-linen-slug.sh
-        container: qc.sec_paltry-brass-maltese
+        - /usr/bin/env sh .sqa/script.snoopy-jade-toad.sh
+        container: qc.sec_slimy-lime-mayfly
   QC.Sty:
     repos:
       github.com/gem/oq-engine flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.wimpy-charcoal-fox.sh
-        container: qc.sty_bumpy-mauve-wolverine
+        - /usr/bin/env sh .sqa/script.craggy-cardinal-russel.sh
+        container: qc.sty_slaphappy-buff-chow
       github.com/gem/oq-engine jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.sleepy-heliotrope-goat.sh
-        container: qc.sty_squirrely-cerulean-lynx
+        - /usr/bin/env sh .sqa/script.snoopy-asparagus-wallaby.sh
+        container: qc.sty_scaly-sangria-magpie
       github.com/gem/oq-engine oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.slaphappy-chartreuse-hamster.sh
-        container: qc.sty_pretty-alizarin-grouse
+        - /usr/bin/env sh .sqa/script.chummy-amaranth-squirt.sh
+        container: qc.sty_snoopy-burgundy-dormouse
       github.com/gem/oq-engine rubocop:
         commands:
-        - /usr/bin/env sh .sqa/script.ready-celadon-squirt.sh
-        container: qc.sty_shaky-dandelion-gorilla
+        - /usr/bin/env sh .sqa/script.cozy-ultramarine-mouse.sh
+        container: qc.sty_snappy-mauve-collie
   QC.Uni:
     repos:
       github.com/gem/oq-engine pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.gimpy-pumpkin-sponge.sh
-        container: qc.uni_scaly-rust-earwig
+        - /usr/bin/env sh .sqa/script.scanty-viridian-argentino.sh
+        container: qc.uni_cheeky-brass-macaw
   QC.Ver:
     repos:
       github.com/gem/oq-engine get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.beady-plum-heron.sh
-        container: qc.ver_queasy-gold-skunk
+        - /usr/bin/env sh .sqa/script.shaggy-russet-havanese.sh
+        container: qc.ver_wheezy-lilac-gerbil
 timeout: 5400
